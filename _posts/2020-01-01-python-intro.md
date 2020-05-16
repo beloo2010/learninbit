@@ -2,7 +2,7 @@
 title: "Python Intro"
 date: 2020-05-10T15:34:30-04:00
 categories:
-  - Python
+  - blog
 tags:
   - Jekyll
   - update
