@@ -48,7 +48,13 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+# _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -115,10 +121,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
