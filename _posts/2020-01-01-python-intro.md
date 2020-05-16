@@ -14,7 +14,7 @@ sidebar:
   nav: "docs"
 ---
 
-Python is an interpreted programming language. According to xx, its one of the most popular languagaes out there. This will introduce you to the basic. To run a python code, you need to install a python interpreter. It comes by default on most linux machine. Just open a terminal, type python and enter. For this, we will be using Google colab. I have shared a sample code. feel free to make a copy and follow along.
+Python is an interpreted programming language. According to [pypl][pypl], Python is one of the most popular languages out there. This will introduce you to the basic. To run a python code, you need to install a python interpreter. It comes by default on most linux machine. Just open a terminal, type python and enter. For this, we will be using Google [colab][colab]. I have shared a [sample code][sample-code]. feel free to make a copy and follow along.
 
 Hello World
 To print hello world. do this
@@ -40,7 +40,7 @@ comment
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[pypl]: http://pypl.github.io/PYPL.html
+[colab]:   http://colab.research.google.com/
+[sample-code]: https://talk.jekyllrb.com/
 
