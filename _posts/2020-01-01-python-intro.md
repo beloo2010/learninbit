@@ -12,6 +12,7 @@ tags:
   - update
 sidebar:
   nav: "docs"
+comments: true
 ---
 
 Python Intro here
