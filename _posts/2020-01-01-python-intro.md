@@ -4,8 +4,7 @@ date: 2020-05-10T15:34:30-04:00
 categories:
   - python
   - introduction
-  
-  
+
 tags:
   - Hello-world
   - comments
