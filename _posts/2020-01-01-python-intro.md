@@ -56,6 +56,21 @@ print('two')
 #This will print on one line
 ```
 
+#### Concatenation
+Concatenation is the joining of two values. This could be different depending on the type of variable involved.
+To contatenate 
+2 strings, use + or ,
+a string and interger, use ,. + will throw an error
+When + is used on integers, its sums them instead of concatenating them.
+
+See sample below
+```python
+print('a', 'b') #Result -> ab
+print('a' + 'b') #Result -> ab
+print('a', 5) #Result -> a5
+print('a'+ 5) #Result ->Error
+print(5 + 5) #Result -> 10
+```
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
