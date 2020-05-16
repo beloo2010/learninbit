@@ -12,7 +12,6 @@ tags:
   - update
 sidebar:
   nav: "docs"
-comments: true
 ---
 
 Python Intro here
@@ -31,4 +30,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
+{% if page.comments == true %}
 {% include comments.html %}
+{% endif %}
