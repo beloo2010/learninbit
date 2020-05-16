@@ -24,8 +24,8 @@ twitter_username: beloo2010
 github_username: beloo2010
 minimal_mistakes_skin: aqua
 search: true
-staticman_url: https://staticmanapp-gh.herokuapp.com/v2/entry/beloo2010/learninbit/master/comments
-comments: true
+#staticman_url: https://staticmanapp-gh.herokuapp.com/v2/entry/beloo2010/learninbit/master/comments
+#comments: true
 
 
 # Build settings
@@ -117,4 +117,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+repository: beloo2010/learninbit # Git username/repo-name e.g. "mmistakes/minimal-mistakes"
+comments:
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"
+    endpoint: https://staticmanapp-gh.herokuapp.com/v3/entry/github/
 
