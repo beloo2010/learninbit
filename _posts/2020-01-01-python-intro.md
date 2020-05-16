@@ -22,7 +22,7 @@ To print hello world. do this:
 print('Hello World')
 ```
 
-## Comments
+# Comments
 Comments are used to desribe a fucction or leave halpful information
 See sample comments below:
 
