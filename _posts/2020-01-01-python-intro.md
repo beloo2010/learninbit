@@ -17,15 +17,15 @@ sidebar:
 
 Python is an interpreted programming language. According to [pypl][pypl], Python is one of the most popular languages out there. This will introduce you to the basic. To run a python code, you need to install a python interpreter. It comes by default on most linux machine. Just open a terminal, type python and enter. For this, we will be using Google [colab][colab]. I have shared a [sample code][sample-code]. feel free to make a copy and follow along.
 
-**Hello World**
+#### Hello World
 To print hello world. do this
 ```python
 print('Hello World')
 ```
 
-**Comments**
+## Comments
 Comments are used to desribe our codes or leave notes
-T add a comment. do this
+To add a comment. do this
 
 ```python
 # This is a single line comnent
