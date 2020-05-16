@@ -42,8 +42,7 @@ See sample below
 ```python
 print('What\'s your aim of learning python\?')
 ``` 
-The escape charater was used to make python handle ' and ? as regular characters
-
+The escape charater was used to make python handle the (') in what's and (?) as regular characters
 
 
 [pypl]: http://pypl.github.io/PYPL.html
