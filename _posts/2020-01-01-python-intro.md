@@ -44,6 +44,18 @@ print('What\'s your aim of learning python\?')
 ``` 
 The escape charater was used to make python handle the (') in what's and (?) as regular characters
 
+#### Print and New Line
+By default, the print statement appends a new line after every print. To avoid that, use the "end" parameter.
+See sample
+```python
+print('one')
+print('two')
+# This will print on two lines
+print('one', end='')
+print('two')
+#This will print on one line
+```
+
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
