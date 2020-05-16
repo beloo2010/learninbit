@@ -24,6 +24,8 @@ twitter_username: beloo2010
 github_username: beloo2010
 minimal_mistakes_skin: aqua
 search: true
+staticman_url: https://staticmanapp-gh.herokuapp.com/v2/entry/beloo2010/learninbit/master/comments
+
 
 # Build settings
 markdown: kramdown
