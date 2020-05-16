@@ -38,5 +38,5 @@ comment
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
-[sample-code]: https://talk.jekyllrb.com/
+[sample-code]: #
 
