@@ -10,8 +10,6 @@ tags:
   - comments
   - coding
   - beginner
-sidebar:
-  nav: 'docs'
 ---
 
 Python is an interpreted programming language. According to [pypl][pypl], Python is one of the most popular languages out there. This will introduce you to the basic. To run a python code, you need to install a python interpreter. It comes by default on most linux machine. Just open a terminal, type python and enter. 
