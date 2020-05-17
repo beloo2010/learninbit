@@ -96,7 +96,13 @@ These are illegal variable names
 * 2myvar = "John"
 * my-var = "John"
 * my var = "John"
+{% endcapture %}
 
+{% capture notice-2 %}
+#### New Site Features
+
+* You can now have cover images on blog pages
+* Drafts will now auto-save while writing
 {% endcapture %}
 
 
