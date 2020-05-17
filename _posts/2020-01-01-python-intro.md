@@ -65,7 +65,7 @@ To contatenate
 a string and interger, use ,. + will throw an error
 When + is used on integers, its sums them instead of concatenating them.
 
-See sample below
+See example below
 ```python
 print('a', 'b') #Result -> ab
 print('a' + 'b') #Result -> ab
@@ -75,8 +75,8 @@ print(5 + 5) #Result -> 10
 ```
 
 #### Print and New Line
-By default, print statement adds a new line after print. To remove new lines, change the end parameter
-See sample below
+By default, print statement adds a new line after print. To remove the new line, update the end parameter.
+See example below
 ```python
 print('one')
 print('two') 
@@ -86,6 +86,7 @@ print('two') # Result -> one two
 ```
 {% capture notice-2 %}
 #### Variable Naming
+
 These are legal variable names
 * myvar = "John"
 * my_var = "John"
@@ -93,7 +94,6 @@ These are legal variable names
 * myVar = "John"
 * MYVAR = "John"
 * myvar2 = "John"
-
 These are illegal variable names
 * 2myvar = "John"
 * my-var = "John"
@@ -109,9 +109,9 @@ These are illegal variable names
 
 
 #### Variable Assignment
-Variables can be assigned
+Variables can be assigned:
 ```python
-#per element
+#Per element
 city = "California"
 
 #In groups. This is called unpacking
@@ -124,7 +124,7 @@ print(x) # Result -> True
 ```
 
 #### Type Casting
-Type casting is the conversion of data type to another. See sample
+Type casting is the conversion of data type to another. See example
 ```python
 # To know the data type of a variable, use the inbuilt type method.
 x  = 1
@@ -140,7 +140,7 @@ y = int(x)
 print(y) # Result -> 1
 ```
 
-Its also possible to cast between tuple, dict and set. See sample
+Its also possible to cast between tuple, dict and set. See example
 ```python
 l = [1,2]
 print(type(l)) # Result -> list
