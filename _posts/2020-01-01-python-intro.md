@@ -84,7 +84,6 @@ print('two')
 print('one', end = ' ')
 print('two') # Result -> one two
 ```
-{% capture notice-2 %}
 #### Variable Naming
 
 These are legal variable names
