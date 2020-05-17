@@ -94,14 +94,14 @@ These are legal variable names
 	* myVar = "John"
 	* MYVAR = "John"
 	* myvar2 = "John"
-	{: .notice--info}
+{: .notice--info}
 
 These are illegal variable names
 
 	* 2myvar = "John"
 	* my-var = "John"
 	* my var = "John"
-	{: .notice--info}
+{: .notice--info}
 
 #### Variable Assignment
 Variables can be assigned:
