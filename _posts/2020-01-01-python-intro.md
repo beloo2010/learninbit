@@ -88,18 +88,18 @@ print('two') # Result -> one two
 
 These are legal variable names
 
-* myvar = 'John'
-* my_var = 'John'
-* _my_var = 'John'
-* myVar = 'John'
-* MYVAR = 'John'
-* myvar2 = 'John'
+* varname = 'belu'
+* var_name = 'belu'
+* _var_name = 'belu'
+* varName = 'belu'
+* VARNAME = 'belu'
+* varname2 = 'belu'
 {: .notice--info}
 
 These are illegal variable names
-* 2myvar = 'John'
-* my-var = 'John'
-* my var = 'John'
+* 2varname = 'John' # Cant start with numbers
+* var-name = 'John' # No hyphen (-)
+* var name = 'John' # No Space
 {: .notice--warning}
 
 #### Variable Assignment
