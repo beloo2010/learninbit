@@ -168,6 +168,22 @@ y = int(2.8) # y will be 2
 z = int("3") # z will be 3
 ```
 
+#### String formating using {}
+string has a .format() method  used to format methods. It uses {} as a placeholder variables
+See examples
+```python
+# string Format using {}
+print("The sum of 1 + 2 is ", 1+2)
+# can also be written as
+print("The sum of 1 + 2 is {}".format(1+2)) # can avoid 0 in {} to make it positional
+
+# Another example
+print("The product of {} and {} is {}".format(2, 3, 2*3)) # These are positional
+
+#Can use index to change the variable positions
+print("The product of {2} and {0} is {1} ".format(2*3, 2, 3))
+``` 
+
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
 [sample-code]: #
