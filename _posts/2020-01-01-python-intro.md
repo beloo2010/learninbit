@@ -85,20 +85,24 @@ print('two') # Result -> one two
 
 #### Variable Naming
 These are legal variable names
-2myvar = "John"
-my-var = "John"
-my var = "John"
+
+* myvar = "John"
+* my_var = "John"
+* _my_var = "John"
+* myVar = "John"
+* MYVAR = "John"
+* myvar2 = "John"
 {: .notice--info}
 
-
 These are illegal variable names
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
+
+* 2myvar = "John"
+* my-var = "John"
+* my var = "John"
 {: .notice--warning}
+
+
+
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
