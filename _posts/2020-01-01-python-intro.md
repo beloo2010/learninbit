@@ -116,6 +116,41 @@ print(x) # Result -> 10
 print(x) # Result -> True
 ```
 
+#### Type Casting
+Type casting is the conversion of data type to another. See sample
+```python
+# To know the data type of a variable, use the inbuilt type method.
+x  = 1
+print(type(x)) # Result -> int
+y = str(x)
+print(type(y)) # Result -> str
+z = float(y)
+print(type(z)) # Result -> float
+
+#Know that converting a float to int would loose any decimal values
+x = 1.3
+y = int(x)
+print(y) # Result -> 1
+```
+
+Its also possible to cast between tuple, dict and set. See sample
+```python
+l = [1,2]
+print(type(l)) # Result -> list
+
+h = set(l)
+print(h)  # Result -> {1,2}
+print(type(h))  # Result -> set
+
+t = tuple(h)
+print(t)  # Result -> (1,2)
+print(type(t))  # Result -> tuple
+
+o = list(t)  # Result -> [1,2]
+print(type(o))  # Result -> list
+```
+
+
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
 [sample-code]: #
