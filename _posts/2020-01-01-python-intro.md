@@ -102,7 +102,20 @@ These are illegal variable names
 {: .notice--warning}
 
 
+#### Variable Assignment
+Variables can be assigned
+```python
+#per element
+city = "California"
 
+#In groups. This is called unpacking
+x, y, z = "Orange", 10, True 
+
+print(city) # Result -> California
+print(x) # Result -> Orange
+print(x) # Result -> 10
+print(x) # Result -> True
+```
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
