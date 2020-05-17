@@ -174,15 +174,28 @@ See examples
 ```python
 # string Format using {}
 print("The sum of 1 + 2 is ", 1+2)
+
 # can also be written as
-print("The sum of 1 + 2 is {}".format(1+2)) # can avoid 0 in {} to make it positional
+print("The sum of 1 and 2 is {}".format(1+2)) 
+# Result -> The sum of 1 and 2 is 3
 
 # Another example
 print("The product of {} and {} is {}".format(2, 3, 2*3)) # These are positional
+# Result -> The product of 2 and 3 is 6
 
 #Can use index to change the variable positions
-print("The product of {2} and {0} is {1} ".format(2*3, 2, 3))
+print("The product of {2} and {0} is {1} ".format(2*3, 2, 3)) # The position has been changed by using indexes
+# Result -> The product of 2 and 3 is 6
 ``` 
+
+#### Float formatting in strings
+See examples
+```python
+# To 2 decimal places
+print("{} divided by {} is {:.2f} ".format(10, 3, 10/3))
+# Result -> T10 divided by 3 is 3.33
+
+```
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
