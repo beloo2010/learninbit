@@ -88,19 +88,19 @@ print('two') # Result -> one two
 
 These are legal variable names
 
-	* myvar = "John"
-	* my_var = "John"
-	* _my_var = "John"
-	* myVar = "John"
-	* MYVAR = "John"
-	* myvar2 = "John"
+* myvar = "John"
+* my_var = "John"
+* _my_var = "John"
+* myVar = "John"
+* MYVAR = "John"
+* myvar2 = "John"
 {: .notice--info}
 
 These are illegal variable names
 
-	* 2myvar = "John"
-	* my-var = "John"
-	* my var = "John"
+* 2myvar = "John"
+* my-var = "John"
+* my var = "John"
 {: .notice--info}
 
 #### Variable Assignment
