@@ -97,11 +97,10 @@ These are legal variable names
 {: .notice--info}
 
 These are illegal variable names
-
 * 2myvar = "John"
 * my-var = "John"
 * my var = "John"
-{: .notice--info}
+{: .notice--warining}
 
 #### Variable Assignment
 Variables can be assigned:
