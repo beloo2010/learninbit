@@ -1,5 +1,5 @@
 ---
-title: "Python Intro"
+title: 'Python Intro'
 date: 2020-05-10T15:34:30-04:00
 categories:
   - python
@@ -11,7 +11,7 @@ tags:
   - coding
   - beginner
 sidebar:
-  nav: "docs"
+  nav: 'docs'
 ---
 
 Python is an interpreted programming language. According to [pypl][pypl], Python is one of the most popular languages out there. This will introduce you to the basic. To run a python code, you need to install a python interpreter. It comes by default on most linux machine. Just open a terminal, type python and enter. 
@@ -47,7 +47,7 @@ print('What\'s your aim of learning python\?')
 The escape charater was used to make python handle the (') in what's and (?) as regular characters
 
 #### Print and New Line
-By default, the print statement appends a new line after every print. To avoid that, use the "end" parameter.
+By default, the print statement appends a new line after every print. To avoid that, use the 'end' parameter.
 See sample
 ```python
 print('one')
@@ -88,28 +88,28 @@ print('two') # Result -> one two
 
 These are legal variable names
 
-* myvar = "John"
-* my_var = "John"
-* _my_var = "John"
-* myVar = "John"
-* MYVAR = "John"
-* myvar2 = "John"
+* myvar = 'John'
+* my_var = 'John'
+* _my_var = 'John'
+* myVar = 'John'
+* MYVAR = 'John'
+* myvar2 = 'John'
 {: .notice--info}
 
 These are illegal variable names
-* 2myvar = "John"
-* my-var = "John"
-* my var = "John"
+* 2myvar = 'John'
+* my-var = 'John'
+* my var = 'John'
 {: .notice--warning}
 
 #### Variable Assignment
 Variables can be assigned:
 ```python
 #Per element
-city = "California"
+city = 'California'
 
 #In groups. This is called unpacking
-x, y, z = "Orange", 10, True 
+x, y, z = 'Orange', 10, True 
 
 print(city) # Result -> California
 print(x) # Result -> Orange
@@ -156,16 +156,16 @@ See examples below:
 ```python
 x = float(1)     # x will be 1.0
 y = float(2.8)   # y will be 2.8
-z = float("3")   # z will be 3.0
-w = float("4.2") # w will be 4.2
+z = float('3')   # z will be 3.0
+w = float('4.2') # w will be 4.2
 
-x = str("s1") # x will be 's1'
+x = str('s1') # x will be 's1'
 y = str(2)    # y will be '2'
 z = str(3.0)  # z will be '3.0'
 
 x = int(1)   # x will be 1
 y = int(2.8) # y will be 2
-z = int("3") # z will be 3
+z = int('3') # z will be 3
 ```
 
 #### String formating using {}
@@ -173,18 +173,18 @@ string has a .format() method  used to format methods. It uses {} as a placehold
 See examples
 ```python
 # string Format using {}
-print("The sum of 1 + 2 is ", 1+2)
+print('The sum of 1 + 2 is ', 1+2)
 
 # can also be written as
-print("The sum of 1 and 2 is {}".format(1+2)) 
+print('The sum of 1 and 2 is {}'.format(1+2)) 
 # Result -> The sum of 1 and 2 is 3
 
 # Another example
-print("The product of {} and {} is {}".format(2, 3, 2*3)) # These are positional
+print('The product of {} and {} is {}'.format(2, 3, 2*3)) # These are positional
 # Result -> The product of 2 and 3 is 6
 
 #Can use index to change the variable positions
-print("The product of {2} and {0} is {1} ".format(2*3, 2, 3)) # The position has been changed by using indexes
+print('The product of {2} and {0} is {1} '.format(2*3, 2, 3)) # The position has been changed by using indexes
 # Result -> The product of 2 and 3 is 6
 ``` 
 
@@ -192,12 +192,14 @@ print("The product of {2} and {0} is {1} ".format(2*3, 2, 3)) # The position has
 See examples
 ```python
 # To 2 decimal places
-print("{} divided by {} is {:.2f} ".format(10, 3, 10/3))
-# Result -> T10 divided by 3 is 3.33
-
+print('{} divided by {} is {:.2f} '.format(10, 3, 10/3))
+# Result -> 10 divided by 3 is 3.33
 ```
+
+To learn more about python formatting, go to [pyformat.info][pyformat.info]
 
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
 [sample-code]: #
+[pyformat.info]: https://pyformat.info/
 
