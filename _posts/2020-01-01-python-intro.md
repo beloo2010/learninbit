@@ -72,6 +72,34 @@ print('a'+ 5) #Result ->Error
 print(5 + 5) #Result -> 10
 ```
 
+#### Print and New Line
+By default, print statement adds a new line after print. To remove new lines, change the end parameter
+See sample below
+```python
+print('one')
+print('two') 
+# This will be printed on 2 lines. To print those on a single line
+print('one', end = ' ')
+print('two') # Result -> one two
+```
+
+#### Variable Naming
+These are legal variable names
+2myvar = "John"
+my-var = "John"
+my var = "John"
+{: .notice--info}
+
+
+These are illegal variable names
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+{: .notice--warning}
+
 [pypl]: http://pypl.github.io/PYPL.html
 [colab]:   http://colab.research.google.com/
 [sample-code]: #
