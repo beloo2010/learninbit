@@ -100,7 +100,7 @@ These are illegal variable names
 * 2myvar = "John"
 * my-var = "John"
 * my var = "John"
-{: .notice--warining}
+{: .notice--warning}
 
 #### Variable Assignment
 Variables can be assigned:
