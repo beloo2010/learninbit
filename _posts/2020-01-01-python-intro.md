@@ -23,7 +23,7 @@ print('Hello World')
 ```
 
 #### Comments
-Comments are used to desribe a fucction or leave halpful information
+Comments are used to desribe a function or leave helpful information
 See sample comments below:
 
 ```python
