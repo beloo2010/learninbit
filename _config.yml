@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Beluchukwu Ebede"
   avatar : "/assets/images/bio.png"
-  bio    : "My name is Belu. I am a python Enthusiast"
+  bio    : "My name is Belu and I love to teach Python"
   links:
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
