@@ -5,7 +5,7 @@ main:
     url: /categories/
   #- title: "Tags"
     #url: /tags/
-  - title: "Training"
+  - title: "Free Training"
     url: /training/
   - title: "Contact"
     url: /contact/
