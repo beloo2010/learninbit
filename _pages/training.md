@@ -1,5 +1,5 @@
 ---
-permalink: /training/
+permalink: /Free training/
 title: ""
 author_profile: true
 ---
